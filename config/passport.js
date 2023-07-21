@@ -10,7 +10,6 @@ passport.use(
     },
     (accessToken, refreshToken, profile, done) => {
       done(null, profile);
-      //   console.log(profile.photos[0].value);
     }
   )
 );
